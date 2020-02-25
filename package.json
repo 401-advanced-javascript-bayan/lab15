@@ -1,0 +1,36 @@
+{
+  "name": "lab15",
+  "version": "1.0.0",
+  "description": "",
+  "main": "aap.js",
+  "scripts": {
+    "test": "jest --verbose --coverage",
+    "lint": "eslint '**/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/401-advanced-javascript-bayan/lab15.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/401-advanced-javascript-bayan/lab15/issues"
+  },
+  "homepage": "https://github.com/401-advanced-javascript-bayan/lab15#readme",
+  "dependencies": {
+    "jest": "^25.1.0",
+    "bcrypt": "^3.0.5",
+    "cors": "^2.8.5",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "faker": "^4.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.4.22",
+    "mongoose-schema-jsonschema": "^1.2.1",
+    "morgan": "^1.9.1",
+    "path": "^0.12.7",
+    "swagger-ui-express": "^4.0.2"
+  }
+}
